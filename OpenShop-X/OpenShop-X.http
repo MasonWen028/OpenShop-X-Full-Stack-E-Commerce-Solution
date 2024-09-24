@@ -1,0 +1,6 @@
+@OpenShop_X_HostAddress = http://localhost:5184
+
+GET {{OpenShop_X_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
