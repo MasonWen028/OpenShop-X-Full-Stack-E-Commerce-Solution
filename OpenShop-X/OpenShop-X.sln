@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X", "OpenShop-X.csproj", "{1C4CF415-A0B8-4F8D-8573-1A4AA54188CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenShop-X", "OpenShop-X.csproj", "{1C4CF415-A0B8-4F8D-8573-1A4AA54188CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{0517B264-915A-488E-8966-5EDA3D461B69}"
 EndProject
@@ -15,7 +15,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{45EC789E-125E-4E3A-8552-51F24B14E878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X.Models", "..\OpenShop-X.Models\OpenShop-X.Models.csproj", "{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenShop-X.Models", "..\OpenShop-X.Models\OpenShop-X.Models.csproj", "{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-Customer", "..\OpenShop-Customer\OpenShop-Customer.csproj", "{D6E51068-B100-4B80-968E-4DD5ACF0FA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-Admin", "..\OpenShop-Admin\OpenShop-Admin.csproj", "{B20DF458-F2B2-47D1-9EFD-C577FAB1DCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-Vender", "..\OpenShop-Vender\OpenShop-Vender.csproj", "{0CC4D9FF-964A-42E1-BA68-3C3ADFE05225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerServices", "CustomerServices", "{563E63B8-92B3-4E5D-B95C-FA4FD0EBF2CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonServices", "CommonServices", "{058E5387-34E0-4AAF-8AE5-DCDF26ADEE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X.NotificationApi", "..\OpenShop-X.NotificationApi\OpenShop-X.NotificationApi.csproj", "{3CCABCD9-8B45-4B3D-AC5B-9C2755D97B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X.AuthenticationApi", "..\OpenShop-X.AuthenticationApi\OpenShop-X.AuthenticationApi.csproj", "{500FE080-BB42-42EF-A991-AD2971C3597D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X.OrderApi", "..\OpenShop-X.OrderApi\OpenShop-X.OrderApi.csproj", "{67C2FB92-4BA5-45EB-8F85-F8197753F7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +47,41 @@ Global
 		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E51068-B100-4B80-968E-4DD5ACF0FA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E51068-B100-4B80-968E-4DD5ACF0FA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E51068-B100-4B80-968E-4DD5ACF0FA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E51068-B100-4B80-968E-4DD5ACF0FA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20DF458-F2B2-47D1-9EFD-C577FAB1DCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20DF458-F2B2-47D1-9EFD-C577FAB1DCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20DF458-F2B2-47D1-9EFD-C577FAB1DCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20DF458-F2B2-47D1-9EFD-C577FAB1DCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC4D9FF-964A-42E1-BA68-3C3ADFE05225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC4D9FF-964A-42E1-BA68-3C3ADFE05225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC4D9FF-964A-42E1-BA68-3C3ADFE05225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC4D9FF-964A-42E1-BA68-3C3ADFE05225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCABCD9-8B45-4B3D-AC5B-9C2755D97B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCABCD9-8B45-4B3D-AC5B-9C2755D97B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCABCD9-8B45-4B3D-AC5B-9C2755D97B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCABCD9-8B45-4B3D-AC5B-9C2755D97B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500FE080-BB42-42EF-A991-AD2971C3597D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500FE080-BB42-42EF-A991-AD2971C3597D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500FE080-BB42-42EF-A991-AD2971C3597D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500FE080-BB42-42EF-A991-AD2971C3597D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C2FB92-4BA5-45EB-8F85-F8197753F7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C2FB92-4BA5-45EB-8F85-F8197753F7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C2FB92-4BA5-45EB-8F85-F8197753F7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C2FB92-4BA5-45EB-8F85-F8197753F7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F} = {45EC789E-125E-4E3A-8552-51F24B14E878}
+		{563E63B8-92B3-4E5D-B95C-FA4FD0EBF2CF} = {0AAF5B81-73D5-40EC-9649-D4322F0022C7}
+		{058E5387-34E0-4AAF-8AE5-DCDF26ADEE29} = {0AAF5B81-73D5-40EC-9649-D4322F0022C7}
+		{3CCABCD9-8B45-4B3D-AC5B-9C2755D97B98} = {058E5387-34E0-4AAF-8AE5-DCDF26ADEE29}
+		{500FE080-BB42-42EF-A991-AD2971C3597D} = {563E63B8-92B3-4E5D-B95C-FA4FD0EBF2CF}
+		{67C2FB92-4BA5-45EB-8F85-F8197753F7FC} = {058E5387-34E0-4AAF-8AE5-DCDF26ADEE29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE833701-CB71-46B9-8024-3B8670DA396F}
