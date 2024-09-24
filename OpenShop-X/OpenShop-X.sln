@@ -5,6 +5,18 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X", "OpenShop-X.csproj", "{1C4CF415-A0B8-4F8D-8573-1A4AA54188CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{0517B264-915A-488E-8966-5EDA3D461B69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{CAEFEE58-D89D-41C6-A4F0-0162B9387DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{08801953-C7C9-429E-8CE9-9FE5C698820E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0AAF5B81-73D5-40EC-9649-D4322F0022C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{45EC789E-125E-4E3A-8552-51F24B14E878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenShop-X.Models", "..\OpenShop-X.Models\OpenShop-X.Models.csproj", "{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,16 @@ Global
 		{1C4CF415-A0B8-4F8D-8573-1A4AA54188CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C4CF415-A0B8-4F8D-8573-1A4AA54188CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C4CF415-A0B8-4F8D-8573-1A4AA54188CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BCD5AA5-E29D-45D3-8314-1C84E0D89F0F} = {45EC789E-125E-4E3A-8552-51F24B14E878}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE833701-CB71-46B9-8024-3B8670DA396F}
